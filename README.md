@@ -1,7 +1,5 @@
 # Desafio Chapter 2
 
-## Objetivo:
-
 ### Mais um dos desafios realizados no capítulo 2 do Bootcamp do curso do Agilizei. 
 
 ----------------------------------------------------------------------------------
