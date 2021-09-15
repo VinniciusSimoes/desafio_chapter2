@@ -2,7 +2,7 @@ const faker = require('faker')
 
 const element = require('./elements').ELEMENTS
 
-import Routes from '../../routes'
+import Routes from '../../routes/articles/routes'
 
 class Articles {
 

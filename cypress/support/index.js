@@ -38,7 +38,9 @@ Cypress.Commands.add('backgroudLogin', () => {  // Comando customizado
         });
 })
 
-import Routes from "../support/routes"
+import RoutesArticle from "../support/routes/articles/routes"
+import RoutesRegister from "../support/routes/register/routes"
 before(() => {
-    Routes.init();
+    RoutesRegister.init();
+    RoutesArticle.init();
 });

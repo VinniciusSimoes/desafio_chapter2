@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 import articles from '../support/pages/articles'
-import Routes from '../support/routes'
 
 context('Articles', () => {
     // hooks -> momentos antes / depois do teste

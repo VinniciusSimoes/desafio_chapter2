@@ -1,17 +1,31 @@
 /// <reference types="cypress" />
 
-const faker = require('faker')
+import cadastro from '../support/pages/register/index'
 
 context('Cadastro', () => {
 
     it('Cadastrar um novo usuário', () => {
-        // register
-        cy.visit('register');
+        // acesso
+        cadastro.acessarCadastro()
 
-        //elementos
-        cy.get('input[ng-model*=username]').type(faker.name.firstName() + faker.name.lastName());
-        cy.get('input[ng-model*=email]').type(faker.internet.email());
-        cy.get('input[ng-model*=password]').type(12345678);
-        cy.get('button.btn-primary').click();
+        //preenchi
+        cadastro.preencheFormularioDeCadastro()
+
+        
+// POST 200 https://conduit.productionready.io/api/users
+// (xhr)
+// GET 200 https://conduit.productionready.io/api/tags
+// (xhr)
+// GET 200 https://conduit.productionready.io/api/articles/feed?limit=10&offset=0
+
+
+
+
+        // submeter
+        cadastro.submeterFormularioDeCadastro()
+
+        // validar
+        cadastro.validarSeCadastroFoiCriadoComSucesso()
+
     });
 });
