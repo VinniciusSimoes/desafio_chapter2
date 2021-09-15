@@ -1,3 +1,6 @@
 # Desafio Chapter 2
 
-### Este desafio que estou realizando , vem em um teste que realizamos no capítulo 2 do Bootcamp do curso do Agilizei. O site que testamos era o [Demo Realword]  https://demo.realworld.io/#/ , onde trazemos... 
+### Mais um dos desafios realizados no capítulo 2 do Bootcamp do curso do Agilizei. 
+
+
+##### O site que testamos era o [Demo Realword]  https://demo.realworld.io/#/ , onde trazemos...
