@@ -1,4 +1,4 @@
-# Desafio Chapter 2
+# Desafio Chapter 2 - Curso Agilizei - Bootcamp com Cypress - Testes End-to-End
 
 ### Mais um dos desafios realizados no capítulo 2 do Bootcamp do curso do Agilizei. 
 
